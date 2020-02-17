@@ -1,3 +1,7 @@
+#多层感知机
+#https://www.kesci.com/org/boyuai/project/share/a3f827590e976658
+
+
 %matplotlib inline
 import torch
 import numpy as np
