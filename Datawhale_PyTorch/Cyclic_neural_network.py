@@ -1,3 +1,6 @@
+#循环神经网络
+#https://www.kesci.com/org/boyuai/project/share/c0d6527233dd1686
+
 #从零开始实现循环神经网络
 import torch
 import torch.nn as nn
