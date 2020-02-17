@@ -1,3 +1,7 @@
+#线性回归
+#https://www.kesci.com/org/boyuai/project/share/c1e8332973d6600b
+
+
 #线性回归模型从零开始的实现
 # import packages and modules
 %matplotlib inline
