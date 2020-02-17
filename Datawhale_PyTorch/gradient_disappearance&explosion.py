@@ -1,3 +1,7 @@
+#梯度消失、梯度爆炸
+#https://www.kesci.com/org/boyuai/project/share/748c6266606353ef
+
+
 #Kaggle 房价预测实战
 
 %matplotlib inline
