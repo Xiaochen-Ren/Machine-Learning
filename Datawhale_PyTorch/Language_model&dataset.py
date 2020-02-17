@@ -1,3 +1,7 @@
+#语言模型与数据集
+#https://www.kesci.com/org/boyuai/project/share/85046b2d5e5b5cb4
+
+
 #读取数据集
 
 with open('/home/kesci/input/jaychou_lyrics4703/jaychou_lyrics.txt') as f:
