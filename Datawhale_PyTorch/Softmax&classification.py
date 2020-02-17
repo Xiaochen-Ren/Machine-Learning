@@ -1,3 +1,5 @@
+#Softmax与分类模型
+#https://www.kesci.com/org/boyuai/project/share/4f301834380e1246
 
 #获取Fashion-MNIST训练集和读取数据
 # import needed package
