@@ -21,9 +21,13 @@ print('原始数据标签',y.shape,
 '''----------定义线性回归模型，进行训练、预测-----------'''
 
 from sklearn.svm import SVC 
-lr = SVC(kernel='linear',C=1E10)#支持向量机
-#from sklearn.naive_bayes import GaussianNB
-#lr = GaussianNB()#朴素贝叶斯
+lr = SVC(kernel='linear',C=1E10)#支持向量分类
+lr.fit(x_train,y_train)
+lr.score(x_verify,y_verify)
+y_pred = lr.predict(x_verify)
+
+from sklearn.svm import SVR 
+lr = SVR(kernel='linear',C=1E10)#支持向量回归
 lr.fit(x_train,y_train)
 lr.score(x_verify,y_verify)
 y_pred = lr.predict(x_verify)
